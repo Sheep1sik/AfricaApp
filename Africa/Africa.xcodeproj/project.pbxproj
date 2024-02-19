@@ -19,6 +19,9 @@
 		E8319B822B832BD300681EF5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8319B812B832BD300681EF5 /* MapView.swift */; };
 		E8319B842B832BFC00681EF5 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8319B832B832BFC00681EF5 /* GalleryView.swift */; };
 		E8319B862B832C1100681EF5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8319B852B832C1100681EF5 /* MainView.swift */; };
+		E8319B892B834D2700681EF5 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8319B882B834D2700681EF5 /* CoverImageView.swift */; };
+		E8319B8C2B834F1100681EF5 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8319B8B2B834F1100681EF5 /* CoverImageModel.swift */; };
+		E8319B8F2B83503E00681EF5 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8319B8E2B83503E00681EF5 /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		E8319B812B832BD300681EF5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		E8319B832B832BFC00681EF5 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		E8319B852B832C1100681EF5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E8319B882B834D2700681EF5 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		E8319B8B2B834F1100681EF5 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		E8319B8E2B83503E00681EF5 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +84,14 @@
 		E8319B562B8327CB00681EF5 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
-				E8319B7C2B832AC900681EF5 /* Info.plist */,
+				E8319B8D2B83501C00681EF5 /* Extension */,
+				E8319B8A2B834EF500681EF5 /* Model */,
+				E8319B872B834D1100681EF5 /* View */,
 				E8319B732B8329C900681EF5 /* Data */,
 				E8319B682B83299300681EF5 /* Video */,
 				E8319B7D2B832B6A00681EF5 /* App */,
 				E8319B5B2B8327CC00681EF5 /* Assets.xcassets */,
+				E8319B7C2B832AC900681EF5 /* Info.plist */,
 				E8319B5D2B8327CC00681EF5 /* Preview Content */,
 			);
 			path = Africa;
@@ -135,6 +144,30 @@
 				E8319B852B832C1100681EF5 /* MainView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		E8319B872B834D1100681EF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8319B882B834D2700681EF5 /* CoverImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8319B8A2B834EF500681EF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8319B8B2B834F1100681EF5 /* CoverImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8319B8D2B83501C00681EF5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E8319B8E2B83503E00681EF5 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,10 +246,13 @@
 			files = (
 				E8319B5A2B8327CB00681EF5 /* ContentView.swift in Sources */,
 				E8319B862B832C1100681EF5 /* MainView.swift in Sources */,
+				E8319B892B834D2700681EF5 /* CoverImageView.swift in Sources */,
+				E8319B8C2B834F1100681EF5 /* CoverImageModel.swift in Sources */,
 				E8319B822B832BD300681EF5 /* MapView.swift in Sources */,
 				E8319B582B8327CB00681EF5 /* AfricaApp.swift in Sources */,
 				E8319B7F2B832BAD00681EF5 /* VideoListView.swift in Sources */,
 				E8319B842B832BFC00681EF5 /* GalleryView.swift in Sources */,
+				E8319B8F2B83503E00681EF5 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
